@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+body{ 
+	background-color: var(--ivory-color);
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+:root {
+    --main-blue:#0B74FE;
+    --main-green:#48AD4F;
+    --second-blue: #348CFE;
+    --second-green: #5DC073;
+    --ivory-color: #F0F3E4;
+    --black-color: #050401;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1 {
+    color: var(--main-blue);
+    display: flex;
+}
+
+nav {
+    color: var(--main-green);
+}
+
+nav li {
+    list-style: none;
+}
+
